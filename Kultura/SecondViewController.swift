@@ -14,7 +14,24 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+   
 
 
+
+}
+
+// MARK: - IBActions
+extension SecondViewController {
+
+     @IBAction func cancelToSecondViewController(_ segue: UIStoryboardSegue) {
+     }
+    
+    @IBAction func buttonPressed(_ sender: UIButton)
+    {
+        
+    }
+
+     
 }
 
