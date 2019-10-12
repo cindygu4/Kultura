@@ -16,6 +16,7 @@
 		3E6895BB23520BEC004D9876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6895B923520BEC004D9876 /* LaunchScreen.storyboard */; };
 		3E81020323520D08006A85FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E81020223520D08006A85FF /* GoogleService-Info.plist */; };
 		3E81020523521435006A85FF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81020423521435006A85FF /* ThirdViewController.swift */; };
+		3E81020723521B02006A85FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81020623521B02006A85FF /* LoginViewController.swift */; };
 		5A68D9FD5D74469356FE2693 /* Pods_Kultura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225E807864F58B798E947F4D /* Pods_Kultura.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		3E6895BC23520BEC004D9876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E81020223520D08006A85FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3E81020423521435006A85FF /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3E81020623521B02006A85FF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B83942222423E5C5E57AD3DB /* Pods-Kultura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kultura.debug.xcconfig"; path = "Target Support Files/Pods-Kultura/Pods-Kultura.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 				3E6895B023520BEB004D9876 /* FirstViewController.swift */,
 				3E6895B223520BEB004D9876 /* SecondViewController.swift */,
 				3E81020423521435006A85FF /* ThirdViewController.swift */,
+				3E81020623521B02006A85FF /* LoginViewController.swift */,
 				3E6895B423520BEB004D9876 /* Main.storyboard */,
 				3E6895B723520BEC004D9876 /* Assets.xcassets */,
 				3E6895B923520BEC004D9876 /* LaunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E81020723521B02006A85FF /* LoginViewController.swift in Sources */,
 				3E6895B323520BEB004D9876 /* SecondViewController.swift in Sources */,
 				3E6895B123520BEB004D9876 /* FirstViewController.swift in Sources */,
 				3E81020523521435006A85FF /* ThirdViewController.swift in Sources */,

@@ -74,6 +74,40 @@
 			<key>uniqueIdentifier</key>
 			<string>27978D68-CB03-445D-A1C7-CFD1DDB2B923</string>
 		</dict>
+		<key>3127F9A6-DA96-42C8-AF4D-DDA17DE115CD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3127F9A6-DA96-42C8-AF4D-DDA17DE115CD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Kultura project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Kultura</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Kultura</string>
+			<key>timeStartedRecording</key>
+			<real>592585070.21842301</real>
+			<key>timeStoppedRecording</key>
+			<real>592585110.10210395</real>
+			<key>title</key>
+			<string>Debug Kultura</string>
+			<key>uniqueIdentifier</key>
+			<string>3127F9A6-DA96-42C8-AF4D-DDA17DE115CD</string>
+		</dict>
 		<key>394F33EE-FB07-43EC-8B83-3F683F19FBE0</key>
 		<dict>
 			<key>className</key>
@@ -176,6 +210,40 @@
 			<key>uniqueIdentifier</key>
 			<string>66D18CF3-EEBD-4D0B-BFA0-BEDB9A9DDCD4</string>
 		</dict>
+		<key>6720A946-C59C-4E76-87BF-B3960F2DDA7A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6720A946-C59C-4E76-87BF-B3960F2DDA7A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Kultura project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Kultura</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Kultura</string>
+			<key>timeStartedRecording</key>
+			<real>592584230.51793897</real>
+			<key>timeStoppedRecording</key>
+			<real>592584283.79343295</real>
+			<key>title</key>
+			<string>Debug Kultura</string>
+			<key>uniqueIdentifier</key>
+			<string>6720A946-C59C-4E76-87BF-B3960F2DDA7A</string>
+		</dict>
 		<key>83DB9C15-306F-40AD-A705-152217F3B371</key>
 		<dict>
 			<key>className</key>
@@ -277,6 +345,40 @@
 			<string>Debug Kultura</string>
 			<key>uniqueIdentifier</key>
 			<string>A1E82069-0297-4371-B673-F9B6E5164C54</string>
+		</dict>
+		<key>C8F58FBA-0156-4463-A5F3-643B39C15E96</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C8F58FBA-0156-4463-A5F3-643B39C15E96.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Kultura project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Kultura</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Kultura</string>
+			<key>timeStartedRecording</key>
+			<real>592583716.638592</real>
+			<key>timeStoppedRecording</key>
+			<real>592583875.64668095</real>
+			<key>title</key>
+			<string>Debug Kultura</string>
+			<key>uniqueIdentifier</key>
+			<string>C8F58FBA-0156-4463-A5F3-643B39C15E96</string>
 		</dict>
 	</dict>
 </dict>
