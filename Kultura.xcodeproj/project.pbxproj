@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,14 @@
 		3E6895B623520BEB004D9876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6895B423520BEB004D9876 /* Main.storyboard */; };
 		3E6895B823520BEC004D9876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6895B723520BEC004D9876 /* Assets.xcassets */; };
 		3E6895BB23520BEC004D9876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6895B923520BEC004D9876 /* LaunchScreen.storyboard */; };
+		3E81020323520D08006A85FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E81020223520D08006A85FF /* GoogleService-Info.plist */; };
+		3E81020523521435006A85FF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81020423521435006A85FF /* ThirdViewController.swift */; };
+		5A68D9FD5D74469356FE2693 /* Pods_Kultura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225E807864F58B798E947F4D /* Pods_Kultura.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		225E807864F58B798E947F4D /* Pods_Kultura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kultura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1D507B53607D610E1B5654 /* Pods-Kultura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kultura.release.xcconfig"; path = "Target Support Files/Pods-Kultura/Pods-Kultura.release.xcconfig"; sourceTree = "<group>"; };
 		3E6895A923520BEB004D9876 /* Kultura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kultura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6895AC23520BEB004D9876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E6895AE23520BEB004D9876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		3E6895B723520BEC004D9876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E6895BA23520BEC004D9876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E6895BC23520BEC004D9876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E81020223520D08006A85FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E81020423521435006A85FF /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B83942222423E5C5E57AD3DB /* Pods-Kultura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kultura.debug.xcconfig"; path = "Target Support Files/Pods-Kultura/Pods-Kultura.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A68D9FD5D74469356FE2693 /* Pods_Kultura.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,8 @@
 			children = (
 				3E6895AB23520BEB004D9876 /* Kultura */,
 				3E6895AA23520BEB004D9876 /* Products */,
+				5012E2B72EBCAD0D376E8C4C /* Pods */,
+				648677371FAA1AABD8542298 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +73,31 @@
 				3E6895AE23520BEB004D9876 /* SceneDelegate.swift */,
 				3E6895B023520BEB004D9876 /* FirstViewController.swift */,
 				3E6895B223520BEB004D9876 /* SecondViewController.swift */,
+				3E81020423521435006A85FF /* ThirdViewController.swift */,
 				3E6895B423520BEB004D9876 /* Main.storyboard */,
 				3E6895B723520BEC004D9876 /* Assets.xcassets */,
 				3E6895B923520BEC004D9876 /* LaunchScreen.storyboard */,
+				3E81020223520D08006A85FF /* GoogleService-Info.plist */,
 				3E6895BC23520BEC004D9876 /* Info.plist */,
 			);
 			path = Kultura;
+			sourceTree = "<group>";
+		};
+		5012E2B72EBCAD0D376E8C4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B83942222423E5C5E57AD3DB /* Pods-Kultura.debug.xcconfig */,
+				2F1D507B53607D610E1B5654 /* Pods-Kultura.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		648677371FAA1AABD8542298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225E807864F58B798E947F4D /* Pods_Kultura.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E6895BF23520BEC004D9876 /* Build configuration list for PBXNativeTarget "Kultura" */;
 			buildPhases = (
+				2DDB597C60C7D3A2E644A04C /* [CP] Check Pods Manifest.lock */,
 				3E6895A523520BEA004D9876 /* Sources */,
 				3E6895A623520BEA004D9876 /* Frameworks */,
 				3E6895A723520BEA004D9876 /* Resources */,
+				91EA1CF8DEE6F01F0E97FBC1 /* [CP] Embed Pods Frameworks */,
+				7FE7D5E27EA99C80C5C88A54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,12 +162,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6895BB23520BEC004D9876 /* LaunchScreen.storyboard in Resources */,
+				3E81020323520D08006A85FF /* GoogleService-Info.plist in Resources */,
 				3E6895B823520BEC004D9876 /* Assets.xcassets in Resources */,
 				3E6895B623520BEB004D9876 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DDB597C60C7D3A2E644A04C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kultura-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE7D5E27EA99C80C5C88A54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kultura/Pods-Kultura-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kultura/Pods-Kultura-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kultura/Pods-Kultura-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EA1CF8DEE6F01F0E97FBC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kultura/Pods-Kultura-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kultura/Pods-Kultura-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kultura/Pods-Kultura-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3E6895A523520BEA004D9876 /* Sources */ = {
@@ -143,6 +236,7 @@
 			files = (
 				3E6895B323520BEB004D9876 /* SecondViewController.swift in Sources */,
 				3E6895B123520BEB004D9876 /* FirstViewController.swift in Sources */,
+				3E81020523521435006A85FF /* ThirdViewController.swift in Sources */,
 				3E6895AD23520BEB004D9876 /* AppDelegate.swift in Sources */,
 				3E6895AF23520BEB004D9876 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +380,7 @@
 		};
 		3E6895C023520BEC004D9876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83942222423E5C5E57AD3DB /* Pods-Kultura.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +399,7 @@
 		};
 		3E6895C123520BEC004D9876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1D507B53607D610E1B5654 /* Pods-Kultura.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
