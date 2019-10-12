@@ -20,6 +20,9 @@
 		4CDB5D1B2352257F0076B678 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D1A2352257F0076B678 /* Event.swift */; };
 		4CDB5D1D235226510076B678 /* SampleEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D1C235226510076B678 /* SampleEvents.swift */; };
 		4CDB5D1F235234C80076B678 /* NorthAmericaEvents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB5D1E235234C80076B678 /* NorthAmericaEvents.plist */; };
+		4CDB5D212352470B0076B678 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D202352470B0076B678 /* Organization.swift */; };
+		4CDB5D25235247670076B678 /* SampleOrgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D24235247670076B678 /* SampleOrgs.swift */; };
+		4CDB5D27235248750076B678 /* OrgsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D26235248750076B678 /* OrgsViewController.swift */; };
 		5A68D9FD5D74469356FE2693 /* Pods_Kultura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225E807864F58B798E947F4D /* Pods_Kultura.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,9 @@
 		4CDB5D1A2352257F0076B678 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		4CDB5D1C235226510076B678 /* SampleEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEvents.swift; sourceTree = "<group>"; };
 		4CDB5D1E235234C80076B678 /* NorthAmericaEvents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NorthAmericaEvents.plist; sourceTree = "<group>"; };
+		4CDB5D202352470B0076B678 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		4CDB5D24235247670076B678 /* SampleOrgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleOrgs.swift; sourceTree = "<group>"; };
+		4CDB5D26235248750076B678 /* OrgsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgsViewController.swift; sourceTree = "<group>"; };
 		B83942222423E5C5E57AD3DB /* Pods-Kultura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kultura.debug.xcconfig"; path = "Target Support Files/Pods-Kultura/Pods-Kultura.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +86,8 @@
 				3E6895AC23520BEB004D9876 /* AppDelegate.swift */,
 				3E6895AE23520BEB004D9876 /* SceneDelegate.swift */,
 				4CDB5D1A2352257F0076B678 /* Event.swift */,
+				4CDB5D202352470B0076B678 /* Organization.swift */,
+				4CDB5D24235247670076B678 /* SampleOrgs.swift */,
 				4CDB5D1C235226510076B678 /* SampleEvents.swift */,
 				3E6895B023520BEB004D9876 /* FirstViewController.swift */,
 				3E6895B223520BEB004D9876 /* SecondViewController.swift */,
@@ -90,6 +98,7 @@
 				4CDB5D14235222470076B678 /* GoogleService-Info.plist */,
 				3E6895BC23520BEC004D9876 /* Info.plist */,
 				4CDB5D16235224BB0076B678 /* EventsViewControlTableViewController.swift */,
+				4CDB5D26235248750076B678 /* OrgsViewController.swift */,
 				4CDB5D1E235234C80076B678 /* NorthAmericaEvents.plist */,
 			);
 			path = Kultura;
@@ -250,13 +259,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDB5D25235247670076B678 /* SampleOrgs.swift in Sources */,
 				3E6895B323520BEB004D9876 /* SecondViewController.swift in Sources */,
+				4CDB5D27235248750076B678 /* OrgsViewController.swift in Sources */,
 				3E6895B123520BEB004D9876 /* FirstViewController.swift in Sources */,
 				3E81020523521435006A85FF /* ThirdViewController.swift in Sources */,
 				4CDB5D17235224BB0076B678 /* EventsViewControlTableViewController.swift in Sources */,
 				4CDB5D1D235226510076B678 /* SampleEvents.swift in Sources */,
 				3E6895AD23520BEB004D9876 /* AppDelegate.swift in Sources */,
 				4CDB5D1B2352257F0076B678 /* Event.swift in Sources */,
+				4CDB5D212352470B0076B678 /* Organization.swift in Sources */,
 				3E6895AF23520BEB004D9876 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
