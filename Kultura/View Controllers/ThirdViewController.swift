@@ -3,7 +3,7 @@
 //  Kultura
 //
 //  Created by Cindy on 10/12/19.
-//  Copyright © 2019 Cindy Gu. All rights reserved.
+//  Copyright © 2019 Kultura. All rights reserved.
 //
 
 import SwiftUI

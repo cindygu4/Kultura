@@ -15,6 +15,10 @@
 		3E6895B823520BEC004D9876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6895B723520BEC004D9876 /* Assets.xcassets */; };
 		3E6895BB23520BEC004D9876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6895B923520BEC004D9876 /* LaunchScreen.storyboard */; };
 		3E81020523521435006A85FF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81020423521435006A85FF /* ThirdViewController.swift */; };
+		3E8A081C2352747E002B1011 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A081B2352747E002B1011 /* SignupViewController.swift */; };
+		3E8A081E235274A0002B1011 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A081D235274A0002B1011 /* LoginViewController.swift */; };
+		3E8A08212352757A002B1011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A08202352757A002B1011 /* ViewController.swift */; };
+		3EE296A7235286A600D4AAD8 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE296A6235286A600D4AAD8 /* Styles.swift */; };
 		4CDB5D15235222470076B678 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB5D14235222470076B678 /* GoogleService-Info.plist */; };
 		4CDB5D17235224BB0076B678 /* EventsViewControlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D16235224BB0076B678 /* EventsViewControlTableViewController.swift */; };
 		4CDB5D1B2352257F0076B678 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D1A2352257F0076B678 /* Event.swift */; };
@@ -39,6 +43,10 @@
 		3E6895BA23520BEC004D9876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E6895BC23520BEC004D9876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E81020423521435006A85FF /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3E8A081B2352747E002B1011 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		3E8A081D235274A0002B1011 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3E8A08202352757A002B1011 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EE296A6235286A600D4AAD8 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		4CDB5D14235222470076B678 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4CDB5D16235224BB0076B678 /* EventsViewControlTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewControlTableViewController.swift; sourceTree = "<group>"; };
 		4CDB5D1A2352257F0076B678 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -85,16 +93,15 @@
 			children = (
 				3E6895AC23520BEB004D9876 /* AppDelegate.swift */,
 				3E6895AE23520BEB004D9876 /* SceneDelegate.swift */,
+				3E8A081F23527532002B1011 /* View Controllers */,
+				3E6895B423520BEB004D9876 /* Main.storyboard */,
+				3E6895B723520BEC004D9876 /* Assets.xcassets */,
+				3E6895B923520BEC004D9876 /* LaunchScreen.storyboard */,
 				4CDB5D1A2352257F0076B678 /* Event.swift */,
 				4CDB5D202352470B0076B678 /* Organization.swift */,
 				4CDB5D24235247670076B678 /* SampleOrgs.swift */,
 				4CDB5D1C235226510076B678 /* SampleEvents.swift */,
-				3E6895B023520BEB004D9876 /* FirstViewController.swift */,
-				3E6895B223520BEB004D9876 /* SecondViewController.swift */,
-				3E81020423521435006A85FF /* ThirdViewController.swift */,
-				3E6895B423520BEB004D9876 /* Main.storyboard */,
-				3E6895B723520BEC004D9876 /* Assets.xcassets */,
-				3E6895B923520BEC004D9876 /* LaunchScreen.storyboard */,
+				3EE296A6235286A600D4AAD8 /* Styles.swift */,
 				4CDB5D14235222470076B678 /* GoogleService-Info.plist */,
 				3E6895BC23520BEC004D9876 /* Info.plist */,
 				4CDB5D16235224BB0076B678 /* EventsViewControlTableViewController.swift */,
@@ -102,6 +109,19 @@
 				4CDB5D1E235234C80076B678 /* NorthAmericaEvents.plist */,
 			);
 			path = Kultura;
+			sourceTree = "<group>";
+		};
+		3E8A081F23527532002B1011 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E8A08202352757A002B1011 /* ViewController.swift */,
+				3E8A081B2352747E002B1011 /* SignupViewController.swift */,
+				3E8A081D235274A0002B1011 /* LoginViewController.swift */,
+				3E6895B023520BEB004D9876 /* FirstViewController.swift */,
+				3E6895B223520BEB004D9876 /* SecondViewController.swift */,
+				3E81020423521435006A85FF /* ThirdViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		5012E2B72EBCAD0D376E8C4C /* Pods */ = {
@@ -262,13 +282,17 @@
 				4CDB5D25235247670076B678 /* SampleOrgs.swift in Sources */,
 				3E6895B323520BEB004D9876 /* SecondViewController.swift in Sources */,
 				4CDB5D27235248750076B678 /* OrgsViewController.swift in Sources */,
+				3EE296A7235286A600D4AAD8 /* Styles.swift in Sources */,
 				3E6895B123520BEB004D9876 /* FirstViewController.swift in Sources */,
+				3E8A08212352757A002B1011 /* ViewController.swift in Sources */,
 				3E81020523521435006A85FF /* ThirdViewController.swift in Sources */,
 				4CDB5D17235224BB0076B678 /* EventsViewControlTableViewController.swift in Sources */,
+				3E8A081C2352747E002B1011 /* SignupViewController.swift in Sources */,
 				4CDB5D1D235226510076B678 /* SampleEvents.swift in Sources */,
 				3E6895AD23520BEB004D9876 /* AppDelegate.swift in Sources */,
 				4CDB5D1B2352257F0076B678 /* Event.swift in Sources */,
 				4CDB5D212352470B0076B678 /* Organization.swift in Sources */,
+				3E8A081E235274A0002B1011 /* LoginViewController.swift in Sources */,
 				3E6895AF23520BEB004D9876 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cindygu.Kultura;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cindygu.Kultura;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
