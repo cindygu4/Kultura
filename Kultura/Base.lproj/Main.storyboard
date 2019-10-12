@@ -57,6 +57,7 @@
                                 <state key="normal" title="North America"/>
                                 <connections>
                                     <action selector="AsiaButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="QPW-Ag-32c"/>
+                                    <action selector="pickAsia:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="zOm-Eh-JDA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yss-u1-KDx">
@@ -65,6 +66,7 @@
                                 <state key="normal" title="Asia"/>
                                 <connections>
                                     <action selector="AsiaPressed:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="1dn-gq-NWT"/>
+                                    <action selector="pickAsia:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Pab-EN-jTn"/>
                                     <segue destination="Ffb-Oh-UZ3" kind="show" id="KhA-eR-Fnm"/>
                                 </connections>
                             </button>

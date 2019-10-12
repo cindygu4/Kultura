@@ -17,7 +17,17 @@ class SecondViewController: UIViewController {
     
    
 
-
+    @IBAction func pickAsia(_ sender: UIButton) {
+        if sender.tag == 0 {
+            
+        }
+        
+        else {
+            
+        }
+        
+    }
+    
 
 }
 
@@ -27,10 +37,7 @@ extension SecondViewController {
      @IBAction func cancelToSecondViewController(_ segue: UIStoryboardSegue) {
      }
     
-    @IBAction func buttonPressed(_ sender: UIButton)
-    {
-        
-    }
+   
 
      
 }
