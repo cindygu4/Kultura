@@ -26,7 +26,18 @@ class SecondViewController: UIViewController {
         view.window?.rootViewController = asianOrgsController
         view.window?.makeKeyAndVisible()
     }
-
+    
+    
+    @IBAction func goToFirstTab(_ sender: Any) {
+        self.toFirstTab()
+    }
+    
+    func toFirstTab() {
+        let firstTabController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.firstTabController)
+        
+        view.window?.rootViewController = firstTabController
+        view.window?.makeKeyAndVisible()
+    }
     
 }
 

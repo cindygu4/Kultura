@@ -17,6 +17,9 @@ class OrgSummaryViewController: UIViewController {
     }
     
 
+    @IBAction func backClicked(_ sender: Any) {
+        self.goBackToAsianOrgs()
+    }
     /*
     // MARK: - Navigation
 
@@ -26,5 +29,12 @@ class OrgSummaryViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func goBackToAsianOrgs() {
+        let asianOrgController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.asiaOrgViewController)
+        
+        view.window?.rootViewController = asianOrgController
+        view.window?.makeKeyAndVisible()
+    }
 
 }

@@ -118,34 +118,6 @@
 			<key>uniqueIdentifier</key>
 			<string>34979A6C-B85B-47AE-B7B3-79746DA3562C</string>
 		</dict>
-		<key>36D331A5-DF66-4B75-BD90-19A5ACBD855D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>36D331A5-DF66-4B75-BD90-19A5ACBD855D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>Kultura-celzqajdqbrrnjakcymutqrodvge</string>
-			<key>timeStartedRecording</key>
-			<real>592671924.09132802</real>
-			<key>timeStoppedRecording</key>
-			<real>592671934.67911994</real>
-			<key>title</key>
-			<string>Build target Kultura</string>
-			<key>uniqueIdentifier</key>
-			<string>36D331A5-DF66-4B75-BD90-19A5ACBD855D</string>
-		</dict>
 		<key>58D981CC-985B-4FA4-8F13-E984F05A6A7C</key>
 		<dict>
 			<key>className</key>
@@ -509,6 +481,34 @@
 			<string>Build target Pods-Kultura</string>
 			<key>uniqueIdentifier</key>
 			<string>A7B0CF2B-6DE7-4B38-AB6C-BA98C10C4B0E</string>
+		</dict>
+		<key>AB5D2046-B4D9-43FF-B530-FB70ED0E9DD6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>AB5D2046-B4D9-43FF-B530-FB70ED0E9DD6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Kultura-celzqajdqbrrnjakcymutqrodvge</string>
+			<key>timeStartedRecording</key>
+			<real>592673957.17308104</real>
+			<key>timeStoppedRecording</key>
+			<real>592673972.81489205</real>
+			<key>title</key>
+			<string>Build target Kultura</string>
+			<key>uniqueIdentifier</key>
+			<string>AB5D2046-B4D9-43FF-B530-FB70ED0E9DD6</string>
 		</dict>
 		<key>AF2929F9-A016-4124-AAC9-2E24DBF7FC46</key>
 		<dict>

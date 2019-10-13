@@ -19,20 +19,23 @@ var asaWhens = ["7pm, December 12, 2019"]
 var myIndex = 0
 
 class AsianOrgViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+        
+    }
    
     func asianEventSummary() {
-        override func viewDidLoad() {
-            super.viewDidLoad()
-
-            // Do any additional setup after loading the view.
-        }
-        
         let asianEventController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.eventSummaryController)
         
         view.window?.rootViewController = asianEventController
         view.window?.makeKeyAndVisible()
     }
 
+    @IBAction func csaEvents(_ sender: Any) {
+        self.asianEventSummary()
+    }
     /*
     // MARK: - Navigation
 
@@ -43,4 +46,14 @@ class AsianOrgViewController: UIViewController {
     }
     */
 
+    @IBAction func goBackToLocations(_ sender: Any) {
+        self.goToLocations()
+    }
+    
+    func goToLocations() {
+        let locationController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.locationTab)
+        
+        view.window?.rootViewController = locationController
+        view.window?.makeKeyAndVisible()
+    }
 }
