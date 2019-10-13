@@ -76,6 +76,7 @@ class SignupViewController: UIViewController {
         // everything is fine so return nil
         return nil
     }
+    
     @IBAction func signUpTapped(_ sender: Any) {
         // when this sign up button is tapped, need to check if fields are valid
         let checkError = validateTextFields()
