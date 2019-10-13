@@ -73,7 +73,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Check-In!"/>
                                 <connections>
-                                    <action selector="CodeClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="gdi-xT-fJU"/>
+                                    <action selector="firstClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="xxt-iO-v9m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YZl-F7-Zhy">
@@ -84,7 +84,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Check-In!"/>
                                 <connections>
-                                    <action selector="CodeClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="RjA-av-ZbB"/>
+                                    <action selector="secondClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="aRG-3H-DV2"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="What" translatesAutoresizingMaskIntoConstraints="NO" id="pdM-gi-9PK">
@@ -106,7 +106,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Check-In!"/>
                                 <connections>
-                                    <action selector="CodeClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="g1z-ms-8Ky"/>
+                                    <action selector="thirdClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="RQk-kl-Ufs"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TasteOfIndia" translatesAutoresizingMaskIntoConstraints="NO" id="Ey0-CW-g3M">
@@ -132,7 +132,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Check-In!"/>
                                 <connections>
-                                    <action selector="CodeClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="P8J-yP-kVp"/>
+                                    <action selector="fourthClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="iFa-kO-Pbp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Indian Student Association" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q8N-h1-ZYA">
@@ -150,7 +150,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Check-In!"/>
                                 <connections>
-                                    <action selector="CodeClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="vah-sx-nyV"/>
+                                    <action selector="fifthClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="EWO-qX-PcI"/>
                                 </connections>
                             </button>
                             <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Chinese Student Association" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yu3-Yc-AG9">
@@ -177,6 +177,49 @@
             </objects>
             <point key="canvasLocation" x="1659.4202898550725" y="-320.08928571428572"/>
         </scene>
+        <!--Special Code View Controller-->
+        <scene sceneID="qN9-nc-hpX">
+            <objects>
+                <viewController storyboardIdentifier="specialCodeView" id="gc0-Hs-dre" customClass="SpecialCodeViewController" customModule="Kultura" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oaq-oI-JU9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Code Is:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4b-ZI-3uC">
+                                <rect key="frame" x="118" y="221" width="179" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hK-c4-45D">
+                                <rect key="frame" x="125" y="326" width="165" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTu-k9-Gyd">
+                                <rect key="frame" x="20" y="60" width="72" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backClicked:" destination="gc0-Hs-dre" eventType="touchUpInside" id="gCG-xQ-dYt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="eVa-xb-fdI"/>
+                    </view>
+                    <connections>
+                        <outlet property="codeText" destination="7hK-c4-45D" id="xXO-ce-4t0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MRk-90-pVh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2462.3188405797105" y="-653.57142857142856"/>
+        </scene>
         <!--Locations-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -198,7 +241,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Asia" image="AsiaImg"/>
                                 <connections>
-                                    <segue destination="Ffb-Oh-UZ3" kind="show" id="EYP-zg-wMQ"/>
+                                    <action selector="asiaOrgs:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="IcA-wV-BUn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -299,69 +342,12 @@
             </objects>
             <point key="canvasLocation" x="7142.0289855072469" y="624.77678571428567"/>
         </scene>
-        <!--Asia Organizations-->
-        <scene sceneID="kfJ-pn-ciH">
-            <objects>
-                <tableViewController id="0a6-La-IQg" customClass="AsiaOrgsViewController" customModule="Kultura" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nPt-Gi-b6x">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="sectionIndexBackgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="b8z-Ju-Pme" detailTextLabel="3fw-jr-Exf" style="IBUITableViewCellStyleSubtitle" id="mxf-fS-fQ7">
-                                <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mxf-fS-fQ7" id="aC6-tH-S1d">
-                                    <rect key="frame" x="0.0" y="0.0" width="383" height="55.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b8z-Ju-Pme">
-                                            <rect key="frame" x="20" y="10" width="33.5" height="20.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3fw-jr-Exf">
-                                            <rect key="frame" x="20" y="31.5" width="44" height="14.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="0a6-La-IQg" id="Apa-gc-7fJ"/>
-                            <outlet property="delegate" destination="0a6-La-IQg" id="70k-Qs-A0d"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Asia Organizations" id="YWn-hg-I0V">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Ju3-AT-riL">
-                            <connections>
-                                <action selector="cancelChoices:" destination="0a6-La-IQg" id="3s6-Ig-6vR"/>
-                                <segue destination="M1Q-7S-oud" kind="unwind" unwindAction="cancelToSecondViewController:" id="O71-bS-OxU"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <segue destination="h2V-dd-hVx" kind="show" id="pOD-U3-E8E"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wfI-2l-mb0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="M1Q-7S-oud" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="1679.7101449275362" y="1061.3839285714284"/>
-        </scene>
         <!--Event-->
         <scene sceneID="x5r-5g-5Hz">
             <objects>
                 <viewController storyboardIdentifier="EventSummary" id="h2V-dd-hVx" customClass="OrgSummaryViewController" customModule="Kultura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wLz-NO-Gb7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvE-2Y-Ers">
@@ -753,25 +739,6 @@
             <point key="canvasLocation" x="910.14492753623199" y="0.0"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Frj-Vx-AH3">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ffb-Oh-UZ3" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="qAo-rI-Bvt"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dn3-g4-ocy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="0a6-La-IQg" kind="relationship" relationship="rootViewController" id="QxQ-EX-eys"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gbK-LU-2pE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="769.56521739130437" y="1061.3839285714284"/>
-        </scene>
-        <!--Navigation Controller-->
         <scene sceneID="AZV-Uu-Bov">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="6wu-BV-WnD" sceneMemberID="viewController">
@@ -787,6 +754,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7LN-Ys-cqd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2055.072463768116" y="-53.571428571428569"/>
+        </scene>
+        <!--Asian Org View Controller-->
+        <scene sceneID="gXM-Pl-gLO">
+            <objects>
+                <viewController storyboardIdentifier="AsianOrgViewController" id="0Zm-e8-33e" customClass="AsianOrgViewController" customModule="Kultura" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="43q-Df-66y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reg-LB-ZFN">
+                                <rect key="frame" x="102" y="161" width="211" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Chinese Student Association"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qv3-e4-N3Q">
+                                <rect key="frame" x="88" y="226" width="238" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Taiwanese Student Association"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kN-ib-A4v">
+                                <rect key="frame" x="102" y="291" width="211" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Indian Student Association"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian Student Orgs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HU-oQ-KrC">
+                                <rect key="frame" x="82" y="79" width="250" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrO-dZ-Rsp">
+                                <rect key="frame" x="82" y="356" width="251" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Vietnemese Student Association"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1HU-oQ-KrC" firstAttribute="top" secondItem="EQj-U8-MDH" secondAttribute="top" constant="35" id="02c-w1-58L"/>
+                            <constraint firstItem="EQj-U8-MDH" firstAttribute="trailing" secondItem="1HU-oQ-KrC" secondAttribute="trailing" constant="82" id="Ht7-ST-QVb"/>
+                            <constraint firstItem="1HU-oQ-KrC" firstAttribute="leading" secondItem="EQj-U8-MDH" secondAttribute="leading" constant="82" id="xrH-1r-hcm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EQj-U8-MDH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QTG-SR-vFc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1398.5507246376812" y="1023.2142857142857"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tdE-Fy-wUa">

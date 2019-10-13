@@ -25,9 +25,35 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-  
-    @IBAction func CodeClicked(_ sender: Any) {
+    
+    @IBAction func firstClicked(_ sender: Any) {
+        self.goToCodePage()
+    }
+    
+    @IBAction func secondClicked(_ sender: Any) {
+        self.goToCodePage()
+    }
+    
+    
+    @IBAction func thirdClicked(_ sender: Any) {
+        self.goToCodePage()
+    }
+    
+    
+    @IBAction func fourthClicked(_ sender: Any) {
+        self.goToCodePage()
+    }
+    
+    
+    @IBAction func fifthClicked(_ sender: Any) {
+        self.goToCodePage()
+    }
+    
+    func goToCodePage() {
+        let specialCode = storyboard?.instantiateViewController(identifier: Constants.Storyboard.specialCodeController)
         
+        view.window?.rootViewController = specialCode
+        view.window?.makeKeyAndVisible()
     }
 }
 

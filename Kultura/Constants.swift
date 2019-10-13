@@ -15,5 +15,7 @@ struct Constants {
         static let locationTab = "LocationTab"
         static let eventSummaryController = "eventSummary"
         static let loginSignUpController = "LoginSignupPage"
+        static let specialCodeController = "specialCodeView"
+        static let asiaOrgViewController = "asiaOrgViewController"
     }
 }

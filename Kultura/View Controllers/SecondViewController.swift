@@ -15,7 +15,19 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func asiaOrgs(_ sender: Any) {
+        self.goToAsianOrgs()
+    }
+    
+    func goToAsianOrgs() {
+        let asianOrgsController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.asiaOrgViewController)
+        
+        view.window?.rootViewController = asianOrgsController
+        view.window?.makeKeyAndVisible()
+    }
 
+    
 }
 
 // MARK: - IBActions

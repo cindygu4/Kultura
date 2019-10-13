@@ -22,6 +22,7 @@
 		3EA432542352E94C00174DFE /* OrgSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA432532352E94C00174DFE /* OrgSummaryViewController.swift */; };
 		3EC4B1692353502F00B4E61E /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E26916F2352DDBC00938489 /* EventsViewController.swift */; };
 		3EC4B16B2353520300B4E61E /* AsianOrgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4B16A2353520300B4E61E /* AsianOrgViewController.swift */; };
+		3EC4B16D23536FB500B4E61E /* SpecialCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4B16C23536FB500B4E61E /* SpecialCodeViewController.swift */; };
 		3EDE46DD2352A66800D36B63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE46DC2352A66800D36B63 /* Constants.swift */; };
 		3EDE46DF2352ABCB00D36B63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EDE46DE2352ABCB00D36B63 /* GoogleService-Info.plist */; };
 		3EE296A7235286A600D4AAD8 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE296A6235286A600D4AAD8 /* Styles.swift */; };
@@ -53,6 +54,7 @@
 		3E8931942352D5160086231A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3EA432532352E94C00174DFE /* OrgSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgSummaryViewController.swift; sourceTree = "<group>"; };
 		3EC4B16A2353520300B4E61E /* AsianOrgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsianOrgViewController.swift; sourceTree = "<group>"; };
+		3EC4B16C23536FB500B4E61E /* SpecialCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialCodeViewController.swift; sourceTree = "<group>"; };
 		3EDE46DC2352A66800D36B63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3EDE46DE2352ABCB00D36B63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3EE296A6235286A600D4AAD8 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				3E8931912352D5160086231A /* FirstViewController.swift */,
 				3E8931932352D5160086231A /* LoginViewController.swift */,
 				3E4357842352E47B00EFA950 /* OrganizationTabViewController.swift */,
+				3EC4B16C23536FB500B4E61E /* SpecialCodeViewController.swift */,
 				3E8931942352D5160086231A /* SecondViewController.swift */,
 				3EC4B16A2353520300B4E61E /* AsianOrgViewController.swift */,
 				3E26916F2352DDBC00938489 /* EventsViewController.swift */,
@@ -293,6 +296,7 @@
 				3E8931952352D5160086231A /* SignupViewController.swift in Sources */,
 				3E89319B2352D5160086231A /* SecondViewController.swift in Sources */,
 				3E4357852352E47B00EFA950 /* OrganizationTabViewController.swift in Sources */,
+				3EC4B16D23536FB500B4E61E /* SpecialCodeViewController.swift in Sources */,
 				4CDB5D25235247670076B678 /* SampleOrgs.swift in Sources */,
 				3E8931982352D5160086231A /* FirstViewController.swift in Sources */,
 				3EE296A7235286A600D4AAD8 /* Styles.swift in Sources */,

@@ -18,30 +18,15 @@ var asaDesc = ["Come share your culture's food with the rest of ASA"]
 var asaWhens = ["7pm, December 12, 2019"]
 var myIndex = 0
 
-class AsianOrgViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return asiaOrganizations.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as UITableViewCell
-        
-        cell.textLabel?.text = asiaOrganizations[indexPath.row]
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("row: \(indexPath.row)")
-        self.asianEventSummary()
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
+class AsianOrgViewController: UIViewController {
+   
     func asianEventSummary() {
+        override func viewDidLoad() {
+            super.viewDidLoad()
+
+            // Do any additional setup after loading the view.
+        }
+        
         let asianEventController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.eventSummaryController)
         
         view.window?.rootViewController = asianEventController
