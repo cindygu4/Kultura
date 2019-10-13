@@ -6,6 +6,34 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>08A8361F-BECF-41BA-A443-212F26913096</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>08A8361F-BECF-41BA-A443-212F26913096.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Kultura-celzqajdqbrrnjakcymutqrodvge</string>
+			<key>timeStartedRecording</key>
+			<real>592624888.76657701</real>
+			<key>timeStoppedRecording</key>
+			<real>592624895.87541699</real>
+			<key>title</key>
+			<string>Build target Kultura</string>
+			<key>uniqueIdentifier</key>
+			<string>08A8361F-BECF-41BA-A443-212F26913096</string>
+		</dict>
 		<key>0C01CA9F-F1BF-4C45-8A06-9E7E80B256A1</key>
 		<dict>
 			<key>className</key>
@@ -565,34 +593,6 @@
 			<string>Build target Pods-Kultura</string>
 			<key>uniqueIdentifier</key>
 			<string>7EAAB6D5-44A3-4755-886D-4423E5131114</string>
-		</dict>
-		<key>845E48FB-5643-4CB5-A868-D721E972DB86</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>845E48FB-5643-4CB5-A868-D721E972DB86.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Kultura-celzqajdqbrrnjakcymutqrodvge</string>
-			<key>timeStartedRecording</key>
-			<real>592623765.80824304</real>
-			<key>timeStoppedRecording</key>
-			<real>592623774.32219303</real>
-			<key>title</key>
-			<string>Build target Kultura</string>
-			<key>uniqueIdentifier</key>
-			<string>845E48FB-5643-4CB5-A868-D721E972DB86</string>
 		</dict>
 		<key>877B6BFA-B6A3-4141-AA06-3CB32F0AA75C</key>
 		<dict>
