@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class SignupViewController: UIViewController {
 
@@ -53,8 +55,73 @@ class SignupViewController: UIViewController {
     }
     */
     
-    
+    func validateTextFields() -> String? {
+        // check all fields + see if fields are valid
+        
+        // check if all fields are filled in
+        if firstName.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || lastName.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || inputEmail.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || inputPassword .text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""  {
+            // means at least 1 field is empty return please fill in all fields
+            return "Please fill in all fields."
+        }
+        
+        // check if password is secure
+        let password = inputPassword.text!.trimmingCharacters(in: .whitespacesAndNewlines);
+        
+        if !Styles.isPasswordValid(password) {
+            // password is not secure enough, return a message
+            return "Password must contain at least 8 characters, a special character, and a number"
+        }
+        
+        
+        // everything is fine so return nil
+        return nil
+    }
     @IBAction func signUpTapped(_ sender: Any) {
+        // when this sign up button is tapped, need to check if fields are valid
+        let checkError = validateTextFields()
+        
+        if checkError != nil {
+            // means there's an error somewhere, print error message
+            print_error(checkError!)
+        }
+        else {
+            let firstname = firstName.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let lastname = lastName.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let userEmail = inputEmail.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let userPassword = inputPassword.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            
+            // create user and store their info into firebase
+            Auth.auth().createUser(withEmail: userEmail, password: userPassword) {
+                result, err in
+                if err != nil {
+                    self.print_error("Error: Cannot create user")
+                }
+                else {
+                    let db = Firestore.firestore()
+                    
+                    db.collection("users").addDocument(data: ["firstName":firstname, "lastName":lastname, "uid":result!.user.uid]) {(error) in
+                        
+                        if error != nil {
+                            self.print_error("Error saving user data")
+                        }
+                    }
+                }
+            }
+            
+            // send them to the first page of the tab control viewer
+            self.goToFirstTab()
+        }
     }
     
+    func print_error(_ message: String) {
+        errorLabel.text = message
+        errorLabel.alpha = 1
+    }
+    
+    func goToFirstTab() {
+        let firstTabController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.firstTabController)
+        
+        view.window?.rootViewController = firstTabController
+        view.window?.makeKeyAndVisible()
+    }
 }

@@ -18,8 +18,9 @@
 		3E8A081C2352747E002B1011 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A081B2352747E002B1011 /* SignupViewController.swift */; };
 		3E8A081E235274A0002B1011 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A081D235274A0002B1011 /* LoginViewController.swift */; };
 		3E8A08212352757A002B1011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A08202352757A002B1011 /* ViewController.swift */; };
+		3EDE46DD2352A66800D36B63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE46DC2352A66800D36B63 /* Constants.swift */; };
+		3EDE46DF2352ABCB00D36B63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EDE46DE2352ABCB00D36B63 /* GoogleService-Info.plist */; };
 		3EE296A7235286A600D4AAD8 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE296A6235286A600D4AAD8 /* Styles.swift */; };
-		4CDB5D15235222470076B678 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB5D14235222470076B678 /* GoogleService-Info.plist */; };
 		4CDB5D17235224BB0076B678 /* EventsViewControlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D16235224BB0076B678 /* EventsViewControlTableViewController.swift */; };
 		4CDB5D1B2352257F0076B678 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D1A2352257F0076B678 /* Event.swift */; };
 		4CDB5D1D235226510076B678 /* SampleEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D1C235226510076B678 /* SampleEvents.swift */; };
@@ -46,8 +47,9 @@
 		3E8A081B2352747E002B1011 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		3E8A081D235274A0002B1011 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3E8A08202352757A002B1011 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EDE46DC2352A66800D36B63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3EDE46DE2352ABCB00D36B63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3EE296A6235286A600D4AAD8 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
-		4CDB5D14235222470076B678 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4CDB5D16235224BB0076B678 /* EventsViewControlTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewControlTableViewController.swift; sourceTree = "<group>"; };
 		4CDB5D1A2352257F0076B678 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		4CDB5D1C235226510076B678 /* SampleEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEvents.swift; sourceTree = "<group>"; };
@@ -98,11 +100,12 @@
 				3E6895B723520BEC004D9876 /* Assets.xcassets */,
 				3E6895B923520BEC004D9876 /* LaunchScreen.storyboard */,
 				4CDB5D1A2352257F0076B678 /* Event.swift */,
+				3EDE46DC2352A66800D36B63 /* Constants.swift */,
 				4CDB5D202352470B0076B678 /* Organization.swift */,
 				4CDB5D24235247670076B678 /* SampleOrgs.swift */,
 				4CDB5D1C235226510076B678 /* SampleEvents.swift */,
 				3EE296A6235286A600D4AAD8 /* Styles.swift */,
-				4CDB5D14235222470076B678 /* GoogleService-Info.plist */,
+				3EDE46DE2352ABCB00D36B63 /* GoogleService-Info.plist */,
 				3E6895BC23520BEC004D9876 /* Info.plist */,
 				4CDB5D16235224BB0076B678 /* EventsViewControlTableViewController.swift */,
 				4CDB5D26235248750076B678 /* OrgsViewController.swift */,
@@ -206,8 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6895BB23520BEC004D9876 /* LaunchScreen.storyboard in Resources */,
-				4CDB5D15235222470076B678 /* GoogleService-Info.plist in Resources */,
 				3E6895B823520BEC004D9876 /* Assets.xcassets in Resources */,
+				3EDE46DF2352ABCB00D36B63 /* GoogleService-Info.plist in Resources */,
 				3E6895B623520BEB004D9876 /* Main.storyboard in Resources */,
 				4CDB5D1F235234C80076B678 /* NorthAmericaEvents.plist in Resources */,
 			);
@@ -286,6 +289,7 @@
 				3E6895B123520BEB004D9876 /* FirstViewController.swift in Sources */,
 				3E8A08212352757A002B1011 /* ViewController.swift in Sources */,
 				3E81020523521435006A85FF /* ThirdViewController.swift in Sources */,
+				3EDE46DD2352A66800D36B63 /* Constants.swift in Sources */,
 				4CDB5D17235224BB0076B678 /* EventsViewControlTableViewController.swift in Sources */,
 				3E8A081C2352747E002B1011 /* SignupViewController.swift in Sources */,
 				4CDB5D1D235226510076B678 /* SampleEvents.swift in Sources */,
