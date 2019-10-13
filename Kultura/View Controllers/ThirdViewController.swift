@@ -8,18 +8,27 @@
 
 import SwiftUI
 import UIKit
+import FirebaseUI
+import Firebase
 
 class ThirdViewController : UITableViewController {
     
+    @IBOutlet weak var firstName: UILabel!
+    
+    @IBOutlet weak var lastName: UILabel!
+    
+    @IBOutlet weak var userEmail: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad();
+        setUp()
     }
     
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+    func setUp() {
+        if Auth.auth()
+        let db = Firestore.firestore()
+        
     }
-    
-    
     
     @IBAction func signOutClicked(_ sender: Any) {
         self.returnToSignIn()
