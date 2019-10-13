@@ -12,5 +12,8 @@ import Foundation
 struct Constants {
     struct Storyboard {
         static let firstTabController = "HomeTabBar"
+        static let locationTab = "LocationTab"
+        static let eventSummaryController = "eventSummary"
+        static let loginSignUpController = "LoginSignupPage"
     }
 }
