@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>932117085599-795i4fru2r3mrl6fb2tusdridavjvvcg.apps.googleusercontent.com</string>
+	<string>315883235882-m9d8ob9m27hvka2t2gvsng59tol3no19.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.932117085599-795i4fru2r3mrl6fb2tusdridavjvvcg</string>
+	<string>com.googleusercontent.apps.315883235882-m9d8ob9m27hvka2t2gvsng59tol3no19</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAFPGLXGWHNa4O-Df_1GKsK6QjW2M2lB9s</string>
+	<string>AIzaSyCv1NWL-dDqUbH6heiWks5_0uDbAWVTMbM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>932117085599</string>
+	<string>315883235882</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>cindygu.Kultura</string>
 	<key>PROJECT_ID</key>
-	<string>kultura-mhacks</string>
+	<string>kultura-mhacks12</string>
 	<key>STORAGE_BUCKET</key>
-	<string>kultura-mhacks.appspot.com</string>
+	<string>kultura-mhacks12.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:932117085599:ios:8c6a72195a41b4d56fd1aa</string>
+	<string>1:315883235882:ios:5e8fc1e01209a618a7b153</string>
 	<key>DATABASE_URL</key>
-	<string>https://kultura-mhacks.firebaseio.com</string>
+	<string>https://kultura-mhacks12.firebaseio.com</string>
 </dict>
 </plist>
