@@ -20,13 +20,13 @@
 		4CDB5D1F235234C80076B678 /* NorthAmericaEvents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB5D1E235234C80076B678 /* NorthAmericaEvents.plist */; };
 		4CDB5D212352470B0076B678 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D202352470B0076B678 /* Organization.swift */; };
 		4CDB5D25235247670076B678 /* SampleOrgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D24235247670076B678 /* SampleOrgs.swift */; };
-		4CDB5D542352D2470076B678 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D4D2352D2470076B678 /* FirstViewController.swift */; };
-		4CDB5D552352D2470076B678 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D4E2352D2470076B678 /* LoginViewController.swift */; };
-		4CDB5D562352D2470076B678 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D4F2352D2470076B678 /* ThirdViewController.swift */; };
-		4CDB5D572352D2470076B678 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D502352D2470076B678 /* SecondViewController.swift */; };
-		4CDB5D582352D2470076B678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D512352D2470076B678 /* ViewController.swift */; };
-		4CDB5D592352D2470076B678 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D522352D2470076B678 /* SignupViewController.swift */; };
-		4CDB5D5A2352D2470076B678 /* AsiaOrgsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D532352D2470076B678 /* AsiaOrgsViewController.swift */; };
+		4CDB5D712352D4240076B678 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D6A2352D4240076B678 /* SignupViewController.swift */; };
+		4CDB5D722352D4240076B678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D6B2352D4240076B678 /* ViewController.swift */; };
+		4CDB5D732352D4240076B678 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D6C2352D4240076B678 /* ThirdViewController.swift */; };
+		4CDB5D742352D4240076B678 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D6D2352D4240076B678 /* FirstViewController.swift */; };
+		4CDB5D752352D4240076B678 /* AsiaOrgsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D6E2352D4240076B678 /* AsiaOrgsViewController.swift */; };
+		4CDB5D762352D4240076B678 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D6F2352D4240076B678 /* LoginViewController.swift */; };
+		4CDB5D772352D4240076B678 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB5D702352D4240076B678 /* SecondViewController.swift */; };
 		5A68D9FD5D74469356FE2693 /* Pods_Kultura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225E807864F58B798E947F4D /* Pods_Kultura.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,13 +48,13 @@
 		4CDB5D1E235234C80076B678 /* NorthAmericaEvents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NorthAmericaEvents.plist; sourceTree = "<group>"; };
 		4CDB5D202352470B0076B678 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
 		4CDB5D24235247670076B678 /* SampleOrgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleOrgs.swift; sourceTree = "<group>"; };
-		4CDB5D4D2352D2470076B678 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = Kultura/ViewControllers/FirstViewController.swift; sourceTree = SOURCE_ROOT; };
-		4CDB5D4E2352D2470076B678 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Kultura/ViewControllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
-		4CDB5D4F2352D2470076B678 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = Kultura/ViewControllers/ThirdViewController.swift; sourceTree = SOURCE_ROOT; };
-		4CDB5D502352D2470076B678 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = Kultura/ViewControllers/SecondViewController.swift; sourceTree = SOURCE_ROOT; };
-		4CDB5D512352D2470076B678 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Kultura/ViewControllers/ViewController.swift; sourceTree = SOURCE_ROOT; };
-		4CDB5D522352D2470076B678 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignupViewController.swift; path = Kultura/ViewControllers/SignupViewController.swift; sourceTree = SOURCE_ROOT; };
-		4CDB5D532352D2470076B678 /* AsiaOrgsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsiaOrgsViewController.swift; path = Kultura/ViewControllers/AsiaOrgsViewController.swift; sourceTree = SOURCE_ROOT; };
+		4CDB5D6A2352D4240076B678 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		4CDB5D6B2352D4240076B678 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CDB5D6C2352D4240076B678 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		4CDB5D6D2352D4240076B678 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4CDB5D6E2352D4240076B678 /* AsiaOrgsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsiaOrgsViewController.swift; sourceTree = "<group>"; };
+		4CDB5D6F2352D4240076B678 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4CDB5D702352D4240076B678 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B83942222423E5C5E57AD3DB /* Pods-Kultura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kultura.debug.xcconfig"; path = "Target Support Files/Pods-Kultura/Pods-Kultura.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +93,7 @@
 			children = (
 				3E6895AC23520BEB004D9876 /* AppDelegate.swift */,
 				3E6895AE23520BEB004D9876 /* SceneDelegate.swift */,
-				4CDB5D4C2352D20B0076B678 /* View Controllers */,
+				4CDB5D692352D4240076B678 /* ViewControllers */,
 				3E6895B423520BEB004D9876 /* Main.storyboard */,
 				3E6895B723520BEC004D9876 /* Assets.xcassets */,
 				3E6895B923520BEC004D9876 /* LaunchScreen.storyboard */,
@@ -110,18 +110,18 @@
 			path = Kultura;
 			sourceTree = "<group>";
 		};
-		4CDB5D4C2352D20B0076B678 /* View Controllers */ = {
+		4CDB5D692352D4240076B678 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4CDB5D532352D2470076B678 /* AsiaOrgsViewController.swift */,
-				4CDB5D4D2352D2470076B678 /* FirstViewController.swift */,
-				4CDB5D4E2352D2470076B678 /* LoginViewController.swift */,
-				4CDB5D502352D2470076B678 /* SecondViewController.swift */,
-				4CDB5D522352D2470076B678 /* SignupViewController.swift */,
-				4CDB5D4F2352D2470076B678 /* ThirdViewController.swift */,
-				4CDB5D512352D2470076B678 /* ViewController.swift */,
+				4CDB5D6A2352D4240076B678 /* SignupViewController.swift */,
+				4CDB5D6B2352D4240076B678 /* ViewController.swift */,
+				4CDB5D6C2352D4240076B678 /* ThirdViewController.swift */,
+				4CDB5D6D2352D4240076B678 /* FirstViewController.swift */,
+				4CDB5D6E2352D4240076B678 /* AsiaOrgsViewController.swift */,
+				4CDB5D6F2352D4240076B678 /* LoginViewController.swift */,
+				4CDB5D702352D4240076B678 /* SecondViewController.swift */,
 			);
-			path = "View Controllers";
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		5012E2B72EBCAD0D376E8C4C /* Pods */ = {
@@ -279,21 +279,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDB5D572352D2470076B678 /* SecondViewController.swift in Sources */,
-				4CDB5D542352D2470076B678 /* FirstViewController.swift in Sources */,
+				4CDB5D772352D4240076B678 /* SecondViewController.swift in Sources */,
+				4CDB5D762352D4240076B678 /* LoginViewController.swift in Sources */,
 				4CDB5D25235247670076B678 /* SampleOrgs.swift in Sources */,
 				3EE296A7235286A600D4AAD8 /* Styles.swift in Sources */,
 				3EDE46DD2352A66800D36B63 /* Constants.swift in Sources */,
 				4CDB5D1D235226510076B678 /* SampleEvents.swift in Sources */,
+				4CDB5D722352D4240076B678 /* ViewController.swift in Sources */,
+				4CDB5D732352D4240076B678 /* ThirdViewController.swift in Sources */,
+				4CDB5D742352D4240076B678 /* FirstViewController.swift in Sources */,
+				4CDB5D712352D4240076B678 /* SignupViewController.swift in Sources */,
 				3E6895AD23520BEB004D9876 /* AppDelegate.swift in Sources */,
 				4CDB5D1B2352257F0076B678 /* Event.swift in Sources */,
-				4CDB5D592352D2470076B678 /* SignupViewController.swift in Sources */,
-				4CDB5D5A2352D2470076B678 /* AsiaOrgsViewController.swift in Sources */,
-				4CDB5D582352D2470076B678 /* ViewController.swift in Sources */,
 				4CDB5D212352470B0076B678 /* Organization.swift in Sources */,
-				4CDB5D562352D2470076B678 /* ThirdViewController.swift in Sources */,
-				4CDB5D552352D2470076B678 /* LoginViewController.swift in Sources */,
 				3E6895AF23520BEB004D9876 /* SceneDelegate.swift in Sources */,
+				4CDB5D752352D4240076B678 /* AsiaOrgsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
