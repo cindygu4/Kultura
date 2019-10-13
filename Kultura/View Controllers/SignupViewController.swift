@@ -69,7 +69,7 @@ class SignupViewController: UIViewController {
         
         if !Styles.isPasswordValid(password) {
             // password is not secure enough, return a message
-            return "Password must contain at least 8 characters, a special character, and a number"
+            return "Error: Invalid password."
         }
         
         
