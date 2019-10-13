@@ -10,8 +10,9 @@ import SwiftUI
 import UIKit
 import FirebaseUI
 import Firebase
+import FirebaseAuth
 
-class ThirdViewController : UITableViewController {
+class ThirdViewController : UIViewController {
     
     @IBOutlet weak var firstName: UILabel!
     
@@ -21,12 +22,24 @@ class ThirdViewController : UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad();
-        setUp()
+        self.setUp()
     }
     
     func setUp() {
-        if Auth.auth()
         let db = Firestore.firestore()
+        guard let uid = Auth.auth().currentUser?.uid else { return }
+        
+        let userRef = db.collection("users").document("uid")
+        
+    userRef.getDocument { (document, error) in
+            if let document = document, document.exists {
+                self.firstName.text? = document.get("firstName") as! String
+                self.lastName.text? = document.get("lastName") as! String
+                self.userEmail.text? = document.get("email") as! String
+            } else {
+                print("Document does not exist")
+            }
+        }
         
     }
     
