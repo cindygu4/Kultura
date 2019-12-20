@@ -7,36 +7,28 @@
 //
 
 import UIKit
+import MapKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, MKMapViewDelegate {
 
+    @IBOutlet weak var mapView: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-    
-    
-    @IBAction func asiaOrgs(_ sender: Any) {
-        self.goToAsianOrgs()
-    }
-    
-    func goToAsianOrgs() {
-        let asianOrgsController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.asiaOrgViewController)
         
-        view.window?.rootViewController = asianOrgsController
-        view.window?.makeKeyAndVisible()
-    }
-    
-    
-    @IBAction func goToFirstTab(_ sender: Any) {
-        self.toFirstTab()
-    }
-    
-    func toFirstTab() {
-        let firstTabController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.firstTabController)
+        // Load the map at Umich
+        let location = CLLocationCoordinate2D(latitude: 42.2780,
+        longitude: -83.7382)
         
-        view.window?.rootViewController = firstTabController
-        view.window?.makeKeyAndVisible()
+        let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+        let region = MKCoordinateRegion(center: location, span: span)
+        mapView.setRegion(region, animated: true)
+            
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = location
+        annotation.title = "University of Michigan"
+        annotation.subtitle = "Ann Arbor"
+        mapView.addAnnotation(annotation)
     }
     
 }
