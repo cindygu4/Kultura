@@ -23,7 +23,7 @@ class SecondViewController: UIViewController, MKMapViewDelegate {
         let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
         let region = MKCoordinateRegion(center: location, span: span)
         mapView.setRegion(region, animated: true)
-            
+        
         let annotation = MKPointAnnotation()
         annotation.coordinate = location
         annotation.title = "University of Michigan"

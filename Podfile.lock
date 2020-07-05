@@ -22,6 +22,8 @@ PODS:
     - FBSDKCoreKit (~> 5.0)
   - Firebase (6.10.0):
     - Firebase/Core (= 6.10.0)
+  - Firebase/Analytics (6.10.0):
+    - Firebase/Core
   - Firebase/Auth (6.10.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 6.3.0)
@@ -203,6 +205,7 @@ PODS:
 
 DEPENDENCIES:
   - Firebase
+  - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Firestore
@@ -277,6 +280,6 @@ SPEC CHECKSUMS:
   Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
   SDWebImage: 46a7f73228f84ce80990c786e4372cf4db5875ce
 
-PODFILE CHECKSUM: 4b12e0864c98dd8c9cfad07f01c4b969366ddf21
+PODFILE CHECKSUM: 2839c9adc1ebbdc2f1f72e174f35609a424a4c15
 
 COCOAPODS: 1.8.3

@@ -7,6 +7,7 @@ target "Kultura" do
 	pod 'Firebase/Firestore'
 	pod 'FirebaseUI'
 	pod 'Firebase'
+	pod 'Firebase/Analytics'
 	pod 'FirebaseUI/Google'
 	pod 'Firebase/Auth'
 	pod 'FirebaseUI/Auth'

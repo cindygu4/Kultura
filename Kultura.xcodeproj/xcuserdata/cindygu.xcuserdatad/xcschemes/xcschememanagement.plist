@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>Kultura.xcscheme_^#shared#^_</key>
+		<key>3E6895A823520BEA004D9876</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>38</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
